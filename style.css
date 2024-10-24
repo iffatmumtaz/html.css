@@ -1,0 +1,66 @@
+
+dy {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}  
+header {
+    background-color: rgb(197, 52, 197);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: blueviolet;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+};
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+};
+.about, .gallery, .contact {
+    margin-bottom: 50px;
+ };
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+ };
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+};
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+  };
+button {
+    padding: 10px;
+    background-color: gray;
+    color: rgb(14, 13, 13);
+    border: none;
+    cursor: pointer;
+};
